@@ -1,0 +1,6 @@
+{
+  "name": "Science Mission HQ",
+  "description": "Futuristic multiplayer Science study headquarters with 40-chapter syllabus tracking, squad collaboration, friends' notes library, real-time chat, study rooms, AI mission briefings, quizzes, and live leaderboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

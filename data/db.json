@@ -1,0 +1,155 @@
+{
+  "users": [
+    {
+      "id": "usr-0adbf8e5-6a32-4da8-91cc-3aa9f5d77573",
+      "username": "dr_kepler",
+      "displayName": "Dr. Kepler",
+      "email": "kepler@mission.hq",
+      "passwordHash": "a95d6078874d57b49a75e0620bffda8d2ed79ae9cef23ea8709f0a864f58a5839c14adb66220628b7c91d4234a6433de15d45342f59ab3322e1c235f508682e7",
+      "salt": "0b244ec9397807d22cbe45bf70748ae9",
+      "avatar": "astronaut-cyan",
+      "level": 1,
+      "xp": 0,
+      "rankTitle": "Cadet Explorer",
+      "streakDays": 1,
+      "completedChaptersCount": 0,
+      "revisionsCount": 0,
+      "quizzesCompletedCount": 0,
+      "badges": [
+        "Science Cadet"
+      ],
+      "createdAt": "2026-10-29T08:59:41.807Z"
+    }
+  ],
+  "sessions": {
+    "ac2db686e4650befe6aa76031e2241e47dbda33bfe669aadc8b35189c58c8b9f": "usr-0adbf8e5-6a32-4da8-91cc-3aa9f5d77573"
+  },
+  "chaptersProgress": {},
+  "notes": [
+    {
+      "id": "note-seed-1",
+      "title": "Acids, Bases & pH Indicators Quick Sheet",
+      "chapterId": 4,
+      "chapterName": "Acids, Bases & Salts",
+      "topic": "pH scale, Litmus & Neutralization reactions",
+      "content": "### 🧪 Quick Summary of Acids & Bases\n- **Acids**: Sour taste, turns blue litmus RED, pH < 7. Release $H^+$ ions in water.\n- **Bases**: Bitter taste, soapy feel, turns red litmus BLUE, pH > 7. Release $OH^-$ ions in water.\n- **Neutralization reaction**:\n  $$\\text{Acid} + \\text{Base} \\rightarrow \\text{Salt} + \\text{Water}$$\n  *Example*: $\\text{HCl} + \\text{NaOH} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$\n\n### ⚠️ Common Exam Questions:\n1. Why does pure distilled water not conduct electricity, whereas rainwater does?\n   - Distilled water has no dissolved ions; rainwater dissolves $CO_2$ forming weak carbonic acid.\n2. What happens during dilution of concentrated acid?\n   - Always add acid slowly to water with constant stirring! Never add water to concentrated acid due to vigorous exothermic heat.",
+      "authorId": "sys-mentor",
+      "authorName": "Commander Lyra",
+      "authorAvatar": "astronaut-cyan",
+      "tags": [
+        "Important",
+        "Formula Sheet",
+        "Revision",
+        "Exam Questions"
+      ],
+      "visibility": "public",
+      "likes": [
+        "seed-1"
+      ],
+      "bookmarks": [],
+      "comments": [
+        {
+          "id": "c-1",
+          "noteId": "note-seed-1",
+          "authorId": "sys-mentor-2",
+          "authorName": "Cadet Leo",
+          "authorAvatar": "astronaut-purple",
+          "content": "Super helpful before the mock exam! Added to my revision bookmarks.",
+          "createdAt": "2026-10-29T04:57:16.204Z"
+        }
+      ],
+      "isDraft": false,
+      "viewsCount": 42,
+      "createdAt": "2026-10-28T08:57:16.204Z",
+      "updatedAt": "2026-10-28T08:57:16.204Z"
+    },
+    {
+      "id": "note-seed-2",
+      "title": "Work, Kinetic Energy & Potential Energy Equations",
+      "chapterId": 8,
+      "chapterName": "Work & Energy",
+      "topic": "Work formulae and Conservation of Mechanical Energy",
+      "content": "### ⚡ Essential Formulas & Derivations\n- **Work ($W$)**:\n  $$W = F \\cdot s \\cdot \\cos(\\theta)$$\n  - When force and displacement are in same direction: $W = F \\cdot s$\n  - When $\\theta = 90^\\circ$: $W = 0$ (e.g. satellite orbiting Earth)\n- **Kinetic Energy ($E_k$)**:\n  $$E_k = \\frac{1}{2} m v^2$$\n- **Potential Energy ($E_p$)**:\n  $$E_p = m \\cdot g \\cdot h$$\n- **Law of Conservation of Energy**:\n  $$E_{\\text{total}} = E_k + E_p = \\text{Constant}$$\n\n### 🎯 Pro Revision Tip:\nRemember 1 Joule = $10^7$ ergs. SI unit of Power is Watt ($1 \\text{ W} = 1 \\text{ J/s}$).",
+      "authorId": "sys-mentor",
+      "authorName": "Dr. Orion",
+      "authorAvatar": "astronaut-emerald",
+      "tags": [
+        "Formula Sheet",
+        "Important"
+      ],
+      "visibility": "public",
+      "likes": [
+        "seed-2"
+      ],
+      "bookmarks": [],
+      "comments": [],
+      "isDraft": false,
+      "viewsCount": 65,
+      "createdAt": "2026-10-28T20:57:16.204Z",
+      "updatedAt": "2026-10-28T20:57:16.204Z"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "room-alpha",
+      "code": "QUANTM",
+      "name": "Quantum Science Vanguard",
+      "description": "Targeting 95%+ in High-Weightage Chapters (Substances, Life Processes, Matter, Electricity)",
+      "subjectFocus": "Physics & Chemistry Focus",
+      "hostId": "sys-host-1",
+      "hostName": "Commander Nova",
+      "members": [
+        {
+          "id": "sys-host-1",
+          "username": "commander_nova",
+          "displayName": "Commander Nova",
+          "avatar": "astronaut-cyan",
+          "role": "host",
+          "joinedAt": "2026-10-27T08:57:16.204Z",
+          "isOnline": true,
+          "level": 8,
+          "xp": 750
+        }
+      ],
+      "maxMembers": 12,
+      "createdAt": "2026-10-27T08:57:16.204Z"
+    },
+    {
+      "id": "room-beta",
+      "code": "BIOMIS",
+      "name": "Bio-Matrix & Ecology Squad",
+      "description": "Daily chapter study sessions for Life Processes, Tissues, Ecosystem & Microbiology",
+      "subjectFocus": "Biology & Environmental Science",
+      "hostId": "sys-host-2",
+      "hostName": "Dr. Helix",
+      "members": [
+        {
+          "id": "sys-host-2",
+          "username": "dr_helix",
+          "displayName": "Dr. Helix",
+          "avatar": "astronaut-purple",
+          "role": "host",
+          "joinedAt": "2026-10-28T08:57:16.204Z",
+          "isOnline": true,
+          "level": 6,
+          "xp": 540
+        }
+      ],
+      "maxMembers": 10,
+      "createdAt": "2026-10-28T08:57:16.204Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-seed-1",
+      "roomId": "room-alpha",
+      "senderId": "sys-host-1",
+      "senderName": "Commander Nova",
+      "senderAvatar": "astronaut-cyan",
+      "text": "Welcome to Quantum Science Vanguard HQ! Today we are tackling Acids, Bases & Salts + Work & Energy.",
+      "timestamp": "2026-10-29T07:57:16.204Z",
+      "type": "chat"
+    }
+  ],
+  "xpTransactions": []
+}
